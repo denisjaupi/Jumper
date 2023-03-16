@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.23)
 project(Jumper)
 
 
-add_executable(Jumper main.cpp Source/Entity.cpp ../Jumper3/Header/Entity.h Source/Player.cpp ../Jumper3/Header/Player.h Source/Ball.cpp ../Jumper3/Header/Ball.h Source/Platform.cpp ../Jumper3/Header/Platform.h Source/PowerUp.cpp ../Jumper3/Header/PowerUp.h Source/Heart.cpp ../Jumper3/Header/Heart.h Source/HealthBar.cpp ../Jumper3/Header/HealthBar.h Source/Map.cpp ../Jumper3/Header/Map.h Source/Game.cpp ../Jumper3/Header/Game.h Source/CollisionDetector.cpp Header/CollisionDetector.h)
+add_executable(Jumper main.cpp Source/Entity.cpp Header/Entity.h Source/Player.cpp Header/Player.h Source/Ball.cpp Header/Ball.h Source/Platform.cpp Header/Platform.h Source/PowerUp.cpp Header/PowerUp.h Source/Heart.cpp Header/Heart.h Source/HealthBar.cpp Header/HealthBar.h Source/Map.cpp Header/Map.h Source/Game.cpp Header/Game.h Source/CollisionDetector.cpp Header/CollisionDetector.h)
 
 
 if (APPLE)
@@ -11,7 +11,7 @@ if (APPLE)
     include_directories(${SFML_INCLUDE_DIRS})
     set_target_properties(Jumper PROPERTIES
             MACOSX_BUNDLE TRUE
-            MACOSX_BUNDLE_BUNDLE_NAME "<nome_del_tuo_eseguibile>"
+            MACOSX_BUNDLE_BUNDLE_NAME Jumper
             MACOSX_BUNDLE_BUNDLE_VERSION "1.0"
             )
 endif()
