@@ -6,9 +6,14 @@
 #define JUMPER_PLATFORM_H
 
 
+#include <SFML/System/Vector2.hpp>
+
 class Platform {
+private:
+    sf::Vector2f size;
 public:
-    Platform();
+    Platform(sf::Vector2f size);
+    sf::Vector2f getSize() const;
 };
 
 

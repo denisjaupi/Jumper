@@ -27,6 +27,9 @@ public:
     void death();
     sf::Vector2<float> getPosition();
     void draw();
+    int getHealth() const{
+        return health;
+    }
 };
 
 
