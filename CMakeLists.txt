@@ -4,7 +4,7 @@ project(Jumper)
 
 add_executable(Jumper main.cpp Source/Entity.cpp Header/Entity.h Source/Player.cpp Header/Player.h Source/Ball.cpp Header/Ball.h Source/Platform.cpp Header/Platform.h Source/PowerUp.cpp Header/PowerUp.h Source/Heart.cpp Header/Heart.h Source/HealthBar.cpp Header/HealthBar.h Source/Map.cpp Header/Map.h Source/Game.cpp Header/Game.h Header/Menu.cpp Header/Menu.h)
 
-
+add_subdirectory(Test)
 if (APPLE)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
     find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
