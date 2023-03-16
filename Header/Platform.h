@@ -7,13 +7,13 @@
 
 
 #include <SFML/System/Vector2.hpp>
+#include "Entity.h"
 
-class Platform {
-private:
-    sf::Vector2f size;
+class Platform: public sf::RectangleShape{
 public:
-    Platform(sf::Vector2f size);
-    sf::Vector2f getSize() const;
+    Platform(sf::Vector2f &size, sf::Vector2f &position);
+    sf::Vector2f getRectSize() const;
+    void draw(sf::RenderWindow &window);
 };
 
 

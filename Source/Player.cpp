@@ -11,7 +11,7 @@ void Player::jump() {
 Player::Player() {
     health = DEFAULT_PLAYER_HEALTH;
     shield = false;
-    speed = 0.f;
+    speed = DEFAULT_PLAYER_SPEED;
 }
 
 void Player::decreaseHealth() {

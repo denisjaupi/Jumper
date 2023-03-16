@@ -17,7 +17,6 @@ if (APPLE)
             )
 endif()
 
-# Configurazioni per Windows
 if (WIN32)
     set (SFML_STATIC_LIBRARIES TRUE)
     set (SFML_DIR C:/SFML/lib/cmake/SFML)

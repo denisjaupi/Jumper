@@ -11,7 +11,6 @@
 
 class Map {
 private:
-    Platform platforms[MAPS_PLATFORMS];
 public:
     Map();
 };

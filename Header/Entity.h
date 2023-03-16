@@ -8,7 +8,7 @@
 #include "SFML/Graphics.hpp"
 
 class Entity {
-private:
+protected:
     sf::Sprite sprite;
     sf::Texture texture;
     float Radius;

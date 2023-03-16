@@ -8,7 +8,7 @@
 #include "Entity.h"
 
 #define DEFAULT_PLAYER_HEALTH 3
-
+#define DEFAULT_PLAYER_SPEED 2.f
 
 class Player: Entity{
 private:
