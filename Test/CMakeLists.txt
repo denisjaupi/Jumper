@@ -15,3 +15,4 @@ find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
 include_directories(C:/SFML/include)
 
 target_link_libraries(runAllTests sfml-system sfml-window sfml-graphics sfml-audio sfml-network)
+
