@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Header/Game.h"
+#include "SFML/Graphics/Texture.hpp"
+#include "SFML/Graphics/Sprite.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Game game;
+    game.start();
 }

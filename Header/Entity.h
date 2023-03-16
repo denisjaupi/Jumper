@@ -11,11 +11,14 @@ class Entity {
 private:
     sf::Sprite sprite;
     sf::Texture texture;
-
+    float Radius;
+    sf::Vector2f position;
 protected:
     virtual void move();
     virtual void draw();
-
+public:
+    float getRadius() const;
+    sf::Vector2f getPositions() const;
 
     Entity();
 };
