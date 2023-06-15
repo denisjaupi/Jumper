@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Jumper"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\SFML\;CMake Files\..\..\..\..\..\..\SFML\lib\;CMake Files\..\..\..\..\..\..\SFML\lib\cmake\;CMake Files\..\..\..\..\..\..\SFML\lib\cmake\SFML\;CMake Files\Test\;CMake Files\Test\lib\;CMake Files\Test\lib\googletest\;CMake Files\Test\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Jumper">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Jumper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Jumper"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Jumper/fast">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Jumper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Jumper/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runAllTests">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/include"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 runAllTests"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runAllTests/fast">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/include"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/include"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/include"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest"/>
+					<Add directory="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Ball.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Entity.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Game.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/HealthBar.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Heart.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Map.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Menu.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Platform.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/Player.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Header/PowerUp.h">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Ball.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Entity.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Game.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/HealthBar.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Heart.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Map.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Menu.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Platform.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/Player.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Source/PowerUp.cpp">
+			<Option target="Jumper"/>
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/playerTests.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/runAllTests.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/main.cpp">
+			<Option target="Jumper"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/../../../../../../SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/../../../../../../SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/../../../../../../SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\lib\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/Test/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Test\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

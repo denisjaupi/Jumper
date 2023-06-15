@@ -1,0 +1,10 @@
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/CMakeFiles/Jumper.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/CMakeFiles/runAllTests.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/CMakeFiles/edit_cache.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/CMakeFiles/rebuild_cache.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/CMakeFiles/gtest.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/CMakeFiles/gtest_main.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/CMakeFiles/edit_cache.dir
+C:/Users/tudor/OneDrive - stud.unifi.it/Documenti/CLionProjects/Jumper/cmake-build-debug-mingw/Test/lib/googletest/CMakeFiles/rebuild_cache.dir
